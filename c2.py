@@ -10,7 +10,7 @@ else:
     return_value, image = camera.read()
     if return_value:
         # Guardar la imagen capturada en un archivo
-        cv2.imwrite('imagen_capturada.jpg', image)
+        cv2.imwrite('imagen2.jpg', image)
         print("Imagen capturada y guardada como imagen_capturada.jpg")
     else:
         print("No se pudo capturar la imagen.")
